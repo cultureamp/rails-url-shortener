@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '3.2.2'
 
 # Only include the pieces of Rails that we're using
 # -- Begin rails
@@ -18,7 +18,7 @@ gem 'annotate', require: false
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'jwt'
-gem 'pg', '~> 1.1'
+gem 'pg', '~> 1.5'
 gem 'puma', '~> 5.0', '>= 5.6.2'
 
 group :development, :test do
