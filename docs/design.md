@@ -36,7 +36,7 @@ Creating short URLs can be done via a POST to the root url. The only required bo
 Much more detail on this process is [detailed below](#custom-slugs).
 
 ```bash
-$ curl --dump-header - --requestPOST --url "/" --data "full_url=https://anytown.usa"
+$ curl --dump-header - --request POST --url "/" --data "full_url=https://anytown.usa"
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 

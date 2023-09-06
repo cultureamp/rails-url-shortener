@@ -16,7 +16,7 @@ COPY config/ ./config/
 COPY db/ ./db/
 COPY lib/ ./lib/
 COPY public/ ./public/
-RUN mkdir -p ./tmp/pids
+RUN mkdir -p ./tmp/
 
 COPY config.ru .
 COPY Rakefile .
