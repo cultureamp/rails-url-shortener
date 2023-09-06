@@ -6,7 +6,6 @@ RUN apk add build-base postgresql15-client libpq-dev
 WORKDIR /app
 COPY Gemfile* ./
 COPY .ruby-version .
-# RUN gem install bundler --version 2.2.3 --quiet
 RUN bundle install --with production --quiet
 
 FROM build-image as default-image
@@ -18,7 +17,6 @@ COPY db/ ./db/
 COPY lib/ ./lib/
 COPY public/ ./public/
 RUN mkdir -p ./tmp/pids
-# COPY vendor/ ./vendor/
 
 COPY config.ru .
 COPY Rakefile .

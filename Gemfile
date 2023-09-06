@@ -10,7 +10,7 @@ gem 'actionpack', '~> 6.1.3', '>= 6.1.4.6'
 gem 'activemodel', '~> 6.1.3', '>= 6.1.4.6'
 gem 'activerecord', '~> 6.1.3', '>= 6.1.4.6'
 gem 'activesupport', '~> 6.1.3', '>= 6.1.4.6'
-gem 'bundler', '>= 1.15.0'
+gem 'bundler', '>= 2.4.19'
 gem 'railties', '~> 6.1.3', '>= 6.1.4.6'
 # -- End rails
 
@@ -19,17 +19,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'jwt'
 gem 'pg', '~> 1.5'
-gem 'puma', '~> 5.0', '>= 5.6.2'
+gem 'puma', '~> 6.3'
 
 group :development, :test do
   gem 'pry'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'rubocop'
-  gem 'rubocop-rails'
-  gem 'rubocop-rspec'
   gem 'simplecov'
-  gem 'timecop'
 end
 
 group :development do
