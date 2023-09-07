@@ -12,6 +12,7 @@ gem 'activerecord', '~> 6.1.3', '>= 6.1.4.6'
 gem 'activesupport', '~> 6.1.3', '>= 6.1.4.6'
 gem 'bundler', '>= 2.4.19'
 gem 'railties', '~> 6.1.3', '>= 6.1.4.6'
+gem 'nokogiri', '>= 1.15.3'
 # -- End rails
 
 gem 'annotate', require: false

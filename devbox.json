@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "ruby_3_2@latest",
+    "gcc@latest",
+    "gnumake@latest",
+    "postgresql_14@latest",
+    "bundler@2.4.19",
+    "rubyPackages_3_2.nokogiri@1.13.1",
+    "rubyPackages_3_2.pg@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

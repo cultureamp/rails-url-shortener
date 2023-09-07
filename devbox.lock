@@ -1,0 +1,49 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "bundler@2.4.19": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#bundler",
+      "source": "devbox-search",
+      "version": "2.4.19"
+    },
+    "gcc@latest": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#gcc13",
+      "source": "devbox-search",
+      "version": "13.2.0"
+    },
+    "gnumake@latest": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#gnumake",
+      "source": "devbox-search",
+      "version": "4.4.1"
+    },
+    "postgresql_14@latest": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#postgresql_14",
+      "source": "devbox-search",
+      "version": "14.9"
+    },
+    "rubyPackages_3_2.nokogiri@1.15.3": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#rubyPackages_3_2.nokogiri",
+      "source": "devbox-search",
+      "version": "1.15.3"
+    },
+    "rubyPackages_3_2.pg@latest": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#rubyPackages_3_2.pg",
+      "source": "devbox-search",
+      "version": "1.5.3"
+    },
+    "ruby_3_2@latest": {
+      "last_modified": "2023-09-04T16:24:30Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#ruby_3_2",
+      "source": "devbox-search",
+      "version": "3.2.2"
+    }
+  }
+}
