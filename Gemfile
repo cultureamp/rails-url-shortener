@@ -19,7 +19,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'jwt'
 gem 'pg', '~> 1.5'
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.4', '>= 6.4.3'
 
 group :development, :test do
   gem 'pry'
